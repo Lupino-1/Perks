@@ -1,20 +1,19 @@
-#Většina číšel které jsou zde zadané ode mně budou nastaveny jako výchozí pokud se sem nic nezadá.
+# Most numbers specified here by default will be set if no value is specified in the configuration.
 
-#Pointsperkill pointy za jeden kill.
+# Pointsperkill - The number of points awarded per kill.
 Pointsperkill: 1
 
-
-
-
-#Povolení perku v jednotlivých světech.
+# Enabling perks in individual worlds.
 EnablePerksInEnd: true
 EnablePerksInOverworld: true
 EnablePerksInNether: true
 
-#Safezona je místo, kde nejdou perky, mužete ji vytvořit v každém světě jednu, loc1 je jeden roh a loc 2 je druhý roh, x y z jsou cordy daného rohu.
-#Pokud se svět jmenuje jinak, tak je potřeba dát k world u loc1 i loc2 jméno světa
+# The safe zone is an area where perks are disabled. One safe zone can be created per world.
+# loc1 represents one corner, and loc2 represents the opposite corner. x, y, and z are the coordinates of the respective corners.
+# If the world's name is different, it is necessary to include the world name with loc1 and loc2.
+
 Safezone:
-  #Dva rohy v overworldu
+  # Two corners in the overworld
   Overworld:
     loc1:
       ==: org.bukkit.Location
@@ -28,7 +27,7 @@ Safezone:
       x: -234
       y: 75
       z: -803
-  #Dva rohy v netheru
+  # Two corners in the nether
   Nether:
     loc1:
       ==: org.bukkit.Location
@@ -42,7 +41,7 @@ Safezone:
       x: 0
       y: 0
       z: 0
-  #Dva rohy v endu
+  # Two corners in the end
   End:
     loc1:
       ==: org.bukkit.Location
@@ -57,22 +56,14 @@ Safezone:
       y: 0
       z: 0
 
-
-
-
-
-
-
-# Shop určuje jestli jde item koupit v shopu.
-# Price je cena v points
-# Usages jsou použití
-# Cooldown je v sekundách
-# Powerofeffect je síla potionu
-# Duration je doba trváni potionu v sekundách
-# Powerofpush je síla boostu 2 odpovídá asi 20 blocku přimo vzhuru
-# Damage je v hp.
-
-
+# Shop - Determines whether an item can be purchased in the shop.
+# Price - Cost in points.
+# Usages - The number of uses available.
+# Cooldown - Cooldown in seconds.
+# Powerofeffect - The strength of the potion effect.
+# Duration - Duration of the potion effect in seconds.
+# Powerofpush - Boost strength; a value of 2 corresponds to approximately 20 blocks upward.
+# Damage - Damage dealt, measured in HP.
 
 Scout:
   Shop: true
@@ -94,6 +85,7 @@ Runner:
   Cooldown: 120
   Duration: 10
   Powerofeffect: 4
+
 Miner:
   Shop: true
   Price: 10
@@ -109,12 +101,14 @@ Knight:
   Cooldown: 60
   Duration: 10
   Powerofeffect: 4
+
 Thor:
   Shop: false
   Price: 10
   Usages: 10
   Cooldown: 60
   Damage: 30
+
 Tank:
   Shop: true
   Price: 10
@@ -122,19 +116,3 @@ Tank:
   Cooldown: 60
   Duration: 10
   Powerofeffect: 4
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
