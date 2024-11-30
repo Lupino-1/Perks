@@ -1,0 +1,44 @@
+# {cooldown} Zbývající čas cooldownu v sekundách.
+# {perk} Jméno aktuálního perku .
+# {usagesleft} Počet zbývajících použití aktuálního perku.
+# {slot} Číslo slotu, do kterého byl perk nastaven.
+# {points} Počet pointu
+# {playername} Jméno hráče
+# Pokud u zprávy nic není žadná se nepošle.
+# Komenty za jednotlivými zprávami říkaji jaké hodnoty mužete použít v dané zprávě.
+
+CooldownMessage: "&cYou must wait {cooldown} seconds before using {perk} &cagain!"
+# {cooldown}, {perk}
+
+UsagesMessage: "&2You have &a{usagesleft}&2 usages left."
+# {usagesleft}, {perk}
+
+AfterCooldownMessage: "&2You can use {perk}&2 again."
+# {perk}
+
+BuyPerkMessage: "&2You bought {perk}&2."
+# {perk}
+
+FullInvMessage: "&cYou have full inventory!"
+# (Žádné placeholdery)
+
+NotEnoughPointsMessage: "&cYou don't have enough points!"
+# (Žádné placeholdery)
+
+SamePerkMessage: "&cYou already have this perk."
+# {perk}
+
+SlotMessage: "&2You set your perk slot to &a{slot}&2."
+# {slot}
+
+PerksChoseMessage: "&2You chose {perk}&2."
+# {perk}
+
+SetPointsMessage: "&aYou set {playername} points to {points}."
+# {playername}, {points}
+
+PointsOtherPlayerMessage: "{playername} has {points} points."
+# {playername}, {points}
+
+PointsMeMessage: "You have {points} points."
+# {points}
