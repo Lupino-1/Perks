@@ -1,29 +1,29 @@
-# {cooldown} Zbývající čas cooldownu v sekundách.
-# {perk} Jméno aktuálního perku .
-# {usagesleft} Počet zbývajících použití aktuálního perku.
-# {slot} Číslo slotu, do kterého byl perk nastaven.
-# {points} Počet pointu
-# {playername} Jméno hráče
-# Pokud u zprávy nic není žadná se nepošle.
-# Komenty za jednotlivými zprávami říkaji jaké hodnoty mužete použít v dané zprávě.
+# {cooldown} - Remaining cooldown time in seconds.
+# {perk} - Name of the current perk.
+# {usagesleft} - Number of remaining usages for the current perk.
+# {slot} - Slot number where the perk was set.
+# {points} - Number of points the player has.
+# {playername} - The name of the player.
+# If a message is not specified, it will not be sent.
+# Comments for each message indicate which placeholders can be used within the message.
 
-CooldownMessage: "&cYou must wait {cooldown} seconds before using {perk} &cagain!"
+CooldownMessage: "&cYou must wait {cooldown} seconds before using {perk} again!"
 # {cooldown}, {perk}
 
 UsagesMessage: "&2You have &a{usagesleft}&2 usages left."
 # {usagesleft}, {perk}
 
-AfterCooldownMessage: "&2You can use {perk}&2 again."
+AfterCooldownMessage: "&2You can use {perk} again."
 # {perk}
 
-BuyPerkMessage: "&2You bought {perk}&2."
+BuyPerkMessage: "&2You bought {perk}."
 # {perk}
 
 FullInvMessage: "&cYou have full inventory!"
-# (Žádné placeholdery)
+# (No placeholders)
 
 NotEnoughPointsMessage: "&cYou don't have enough points!"
-# (Žádné placeholdery)
+# (No placeholders)
 
 SamePerkMessage: "&cYou already have this perk."
 # {perk}
@@ -31,10 +31,10 @@ SamePerkMessage: "&cYou already have this perk."
 SlotMessage: "&2You set your perk slot to &a{slot}&2."
 # {slot}
 
-PerksChoseMessage: "&2You chose {perk}&2."
+PerksChoseMessage: "&2You chose {perk}."
 # {perk}
 
-SetPointsMessage: "&aYou set {playername} points to {points}."
+SetPointsMessage: "&aYou set {playername}'s points to {points}."
 # {playername}, {points}
 
 PointsOtherPlayerMessage: "{playername} has {points} points."
