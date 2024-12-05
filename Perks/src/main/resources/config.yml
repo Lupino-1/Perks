@@ -64,12 +64,18 @@ Safezone:
 # Duration - Duration of the potion effect in seconds.
 # Powerofpush - Boost strength; a value of 2 corresponds to approximately 20 blocks upward.
 # Damage - Damage dealt, measured in HP.
+# You can add as many lines of lore as you want to any item. Each new line starts with - "text". If you include a line with just - "", it will create a blank line in the lore, adding a visual gap.
 
 Scout:
   Shop: true
   Price: 10
   Usages: 5
   Cooldown: 60
+  Powerofpush: 2.5
+  Lore:
+    - ""
+    - "&fPřitáhně tě na místo,"
+    - "&fkde nahodíš."
 
 Jumper:
   Shop: true
@@ -77,6 +83,10 @@ Jumper:
   Usages: 5
   Cooldown: 60
   Powerofpush: 2
+  Lore:
+    - ""
+    - "&fBoostne tě dopředu."
+
 
 Runner:
   Shop: true
@@ -85,6 +95,9 @@ Runner:
   Cooldown: 120
   Duration: 10
   Powerofeffect: 4
+  Lore:
+    - ""
+    - "&fSpeed 4 na 10 s."
 
 Miner:
   Shop: true
@@ -93,6 +106,9 @@ Miner:
   Cooldown: 60
   Duration: 30
   Powerofeffect: 3
+  Lore:
+    - ""
+    - "&fHaste 3 na 30 s."
 
 Knight:
   Shop: true
@@ -101,6 +117,9 @@ Knight:
   Cooldown: 60
   Duration: 10
   Powerofeffect: 4
+  Lore:
+    - ""
+    - "&fStrenght 4 na 10 s."
 
 Thor:
   Shop: false
@@ -108,6 +127,9 @@ Thor:
   Usages: 10
   Cooldown: 60
   Damage: 30
+  Lore:
+    - ""
+    - "&fBleskovací tyčka."
 
 Tank:
   Shop: true
@@ -116,3 +138,6 @@ Tank:
   Cooldown: 60
   Duration: 10
   Powerofeffect: 4
+  Lore:
+    - ""
+    - "&fResistance 4 na 10 s."
