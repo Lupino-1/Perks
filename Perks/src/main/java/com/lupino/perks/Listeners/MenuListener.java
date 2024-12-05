@@ -43,15 +43,15 @@ public class MenuListener implements Listener {
         Player player = (Player) event.getWhoClicked();
         Inventory inventory = event.getInventory();
         ItemStack cursor = event.getCursor();
-        int hotbarKey = event.getHotbarButton(); // Vrací číslo klávesy (0-8) nebo -1
+        int hotbarKey = event.getHotbarButton();
 
-        // Zamezení přesunu perku klávesovou zkratkou
+     
         if (hotbarKey != -1) {
             ItemStack hotbarItem = player.getInventory().getItem(hotbarKey);
 
             // Pokud je předmět v hotbaru nebo na slotu perk
             if (openPerkMenuCommand.isPerkItem(hotbarItem) || openPerkMenuCommand.isPerkItem(hand)) {
-                event.setCancelled(true); // Zamezení akce
+                event.setCancelled(true); 
 
 
             }
