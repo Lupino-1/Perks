@@ -201,7 +201,7 @@ public ItemStack CreatePerk(Material material, String name, NamespacedKey namesp
     lore.add(ChatColor.WHITE + "Number of usages: " + numberofusages);
 
 
-    // Přidáme lore z configu a přeložíme barvy
+   
     if (configLore != null) {
         for (String line : configLore) {
             lore.add(ChatColor.translateAlternateColorCodes('&', line));
