@@ -1,0 +1,167 @@
+#Většina číšel které jsou zde zadané ode mně budou nastaveny jako výchozí pokud se sem nic nezadá.
+
+#Pointsperkill pointy za jeden kill.
+Pointsperkill: 1
+
+
+
+
+#Povolení perku v jednotlivých světech.
+EnablePerksInEnd: true
+EnablePerksInOverworld: true
+EnablePerksInNether: true
+
+#Safezona je místo, kde nejdou perky, mužete ji vytvořit v každém světě jednu, loc1 je jeden roh a loc 2 je druhý roh, x y z jsou cordy daného rohu.
+#Pokud se svět jmenuje jinak, tak je potřeba dát k world u loc1 i loc2 jméno světa
+Safezone:
+  #Dva rohy v overworldu
+  Overworld:
+    loc1:
+      ==: org.bukkit.Location
+      world: world
+      x: -304
+      y: 125
+      z: -733
+    loc2:
+      ==: org.bukkit.Location
+      world: world
+      x: -234
+      y: 75
+      z: -803
+  #Dva rohy v netheru
+  Nether:
+    loc1:
+      ==: org.bukkit.Location
+      world: world_nether
+      x: 0
+      y: 0
+      z: 0
+    loc2:
+      ==: org.bukkit.Location
+      world: world_nether
+      x: 0
+      y: 0
+      z: 0
+  #Dva rohy v endu
+  End:
+    loc1:
+      ==: org.bukkit.Location
+      world: world_the_end
+      x: 0
+      y: 0
+      z: 0
+    loc2:
+      ==: org.bukkit.Location
+      world: world_the_end
+      x: 0
+      y: 0
+      z: 0
+
+
+
+
+
+
+
+# Shop určuje jestli jde item koupit v shopu.
+# Price je cena v points
+# Usages jsou použití
+# Cooldown je v sekundách
+# Powerofeffect je síla potionu
+# Duration je doba trváni potionu v sekundách
+# Powerofpush je síla boostu 2 odpovídá asi 20 blocku přimo vzhuru
+# Damage je v hp.
+
+
+
+Scout:
+  Shop: true
+  Price: 10
+  Usages: 5
+  Cooldown: 60
+  Powerofpush: 2.5
+  Lore:
+    -
+    - "&fPřitáhně tě na místo,"
+    - "&fkde nahodíš."
+
+Jumper:
+  Shop: true
+  Price: 10
+  Usages: 5
+  Cooldown: 60
+  Powerofpush: 2
+  Lore:
+    -
+    - "&fBoostne tě dopředu."
+
+
+Runner:
+  Shop: true
+  Price: 10
+  Usages: 5
+  Cooldown: 120
+  Duration: 10
+  Powerofeffect: 4
+  Lore:
+    -
+    - "&fSpeed 4 na 10 s."
+
+Miner:
+  Shop: true
+  Price: 10
+  Usages: 10
+  Cooldown: 60
+  Duration: 30
+  Powerofeffect: 3
+  Lore:
+    -
+    - "&fHaste 3 na 30 s."
+
+Knight:
+  Shop: true
+  Price: 10
+  Usages: 5
+  Cooldown: 60
+  Duration: 10
+  Powerofeffect: 4
+  Lore:
+    -
+    - "&fStrenght 4 na 10 s."
+
+Thor:
+  Shop: false
+  Price: 10
+  Usages: 10
+  Cooldown: 60
+  Damage: 30
+  Lore:
+    -
+    - "&fBleskovací tyčka."
+
+Tank:
+  Shop: true
+  Price: 10
+  Usages: 5
+  Cooldown: 60
+  Duration: 10
+  Powerofeffect: 4
+  Lore:
+    -
+    - "&fResistance 4 na 10 s."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
