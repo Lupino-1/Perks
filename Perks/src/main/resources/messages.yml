@@ -42,3 +42,7 @@ PointsOtherPlayerMessage: "{playername} has {points} points."
 
 PointsMeMessage: "You have {points} points."
 # {points}
+NotAtSpawnMessage: "&cYou need to be at spawn to chose perks."
+# (No placeholders)
+DontHavePermMessage: "&cYou do not have sufficient VIP status for this action."
+# (No placeholders)
