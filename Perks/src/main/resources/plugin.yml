@@ -1,0 +1,38 @@
+name: KetchupPerks
+version: '${project.version}'
+main: com.lupino.perks.Perks
+api-version: '1.20'
+commands:
+  perks:
+    description: Opens perk menu
+    aliases: perk
+  setgems:
+    description: Set points for a player.
+    permission: ketchupperks.setgems
+  gems:
+    description: Check the points of a player.
+  addgems:
+    description: Add points to a player.
+    permission: ketchupperks.addgems
+permissions:
+  ketchupperks.scout:
+    description: Permision that allows players to buy scout perk
+    default: false
+  ketchupperks.jumper:
+    description: Permision that allows players to buy jumper perk
+    default: false
+  ketchupperks.runner:
+    description: Permision that allows players to buy runner perk
+    default: false
+  ketchupperks.miner:
+    description: Permision that allows players to buy miner perk
+    default: false
+  ketchupperks.knight:
+    description: Permision that allows players to buy knight perk
+    default: false
+  ketchupperks.thor:
+    description: Permision that allows players to buy thor perk
+    default: false
+  ketchupperks.tank:
+    description: Permision that allows players to buy tank perk
+    default: false
