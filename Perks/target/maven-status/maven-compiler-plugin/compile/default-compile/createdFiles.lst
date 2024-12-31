@@ -1,0 +1,16 @@
+dev\rajce\ketchupperks\listeners\PerksHandler.class
+dev\rajce\ketchupperks\MessageManager.class
+dev\rajce\ketchupperks\commands\AddGemsCommand.class
+dev\rajce\ketchupperks\Keys.class
+dev\rajce\ketchupperks\listeners\PerkProtectionListener.class
+dev\rajce\ketchupperks\PerkDataManager.class
+dev\rajce\ketchupperks\listeners\MenuListener$1.class
+dev\rajce\ketchupperks\listeners\PlayerKillListener.class
+dev\rajce\ketchupperks\listeners\MenuListener.class
+dev\rajce\ketchupperks\listeners\PerksHandler$1.class
+dev\rajce\ketchupperks\Perks.class
+dev\rajce\ketchupperks\commands\ReloadCommand.class
+dev\rajce\ketchupperks\commands\GemsCommand.class
+dev\rajce\ketchupperks\commands\OpenPerkMenuCommand.class
+dev\rajce\ketchupperks\commands\SetGemsCommand.class
+dev\rajce\ketchupperks\listeners\PerksHandler$2.class

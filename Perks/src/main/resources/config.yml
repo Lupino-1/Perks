@@ -1,0 +1,226 @@
+# Většina čísel, které jsou zde zadané, budou nastaveny jako výchozí, pokud se sem nic nezadá.
+
+# Gems per kill - body za jeden kill
+gems-per-kill: 1
+
+# Povolení perku v jednotlivých světech
+enable-perks-in-end: true
+enable-perks-in-overworld: true
+enable-perks-in-nether: true
+
+# Safezona je místo, kde nejdou perky. Můžete ji vytvořit v každém světě jednu. Loc1 je první roh a loc2 druhý.
+safezone:
+  # Dva rohy v overworldu
+  overworld:
+    loc1:
+      ==: org.bukkit.Location
+      world: world
+      x: -304
+      y: 125
+      z: -733
+    loc2:
+      ==: org.bukkit.Location
+      world: world
+      x: -234
+      y: 75
+      z: -803
+  # Dva rohy v netheru
+  nether:
+    loc1:
+      ==: org.bukkit.Location
+      world: world_nether
+      x: 0
+      y: 0
+      z: 0
+    loc2:
+      ==: org.bukkit.Location
+      world: world_nether
+      x: 0
+      y: 0
+      z: 0
+  # Dva rohy v endu
+  end:
+    loc1:
+      ==: org.bukkit.Location
+      world: world_the_end
+      x: 0
+      y: 0
+      z: 0
+    loc2:
+      ==: org.bukkit.Location
+      world: world_the_end
+      x: 0
+      y: 0
+      z: 0
+
+buttons:
+
+
+  perk-choose-button:
+    name: "&cVybrat perk"
+    lore: []
+    material:
+    slot:
+    model-data: 0
+  none-perk-button:
+    name: "Nevybraný perk"
+    lore: []
+    material:
+    slot:
+    model-data: 0
+
+
+  perk-shop-button:
+    name: "&cPerk shop"
+    lore: []
+    material:
+    slot:
+    model-data: 0
+  your-gems-button:
+    name: "&cYour gems: {gems}"
+    lore: []
+    material:
+    slot:
+    model-data: 0
+
+
+  slot-choose-button:
+    name: "&cVybrat slot"
+    lore: []
+    material:
+    slot:
+    model-data: 0
+  your-slot-button:
+    name: "&aTvůj slot"
+    lore: []
+    material:
+    model-data: 0
+
+
+  back-button:
+    name: "&cZpět"
+    lore: []
+    material:
+    slot:
+    model-data: 0
+  close-button:
+    name: "&cZavřít"
+    lore: []
+    material:
+    slot:
+    model-data: 0
+
+# Perky
+scout:
+  name: "&cScout"
+  shop: true
+  price: 10
+  usages: 5
+  cooldown: 60
+  power-of-push: 2.5
+  lore:
+    - ""
+    - "&4| &f• &7Přitáhne tě na místo,"
+    - "&4| &f• &7kde nahodíš."
+  material:
+  model-data: 0
+
+jumper:
+  name: "&cJumper"
+  shop: true
+  price: 10
+  usages: 5
+  cooldown: 60
+  power-of-push: 2
+  lore:
+    - ""
+    - "&4| &f• &7Boostne tě dopředu."
+  material:
+  model-data: 0
+
+runner:
+  name: "&cRunner"
+  shop: true
+  price: 10
+  usages: 5
+  cooldown: 120
+  duration: 10
+  power-of-effect: 4
+  lore:
+    - ""
+    - "&4| &f• &7Speed 4 na 10 s."
+  material:
+  model-data: 0
+
+miner:
+  name: "&cMiner"
+  shop: true
+  price: 10
+  usages: 10
+  cooldown: 60
+  duration: 30
+  power-of-effect: 3
+  lore:
+    - ""
+    - "&4| &f• &7Haste 3 na 30 s."
+  material:
+  model-data: 0
+
+knight:
+  name: "&cKnight"
+  shop: true
+  price: 10
+  usages: 5
+  cooldown: 60
+  duration: 10
+  power-of-effect: 4
+  lore:
+    - ""
+    - "&4| &f• &7Strength 4 na 10 s."
+  material:
+  model-data: 0
+
+thor:
+  name: "&cThor"
+  shop: true
+  price: 10
+  usages: 10
+  cooldown: 60
+  damage: 30
+  lore:
+    - ""
+    - "&4| &f• &7Bleskovací tyčka."
+  material:
+  model-data: 0
+
+tank:
+  name: "&cTank"
+  shop: true
+  price: 10
+  usages: 5
+  cooldown: 60
+  duration: 10
+  power-of-effect: 4
+  lore:
+    - ""
+    - "&4| &f• &7Resistance 4 na 10 s."
+  material:
+  model-data: 0
+
+vampire:
+  name: "&cVampire blood"
+  shop: true
+  price: 10
+  usages: 5
+  cooldown: 60
+  radius: 7
+  damage-and-heal: 2
+  lore:
+    - ""
+    - "&4| &f• &7Vysaje život z tvých nepřátel."
+  material:
+  model-data: 0
+
+
+
+

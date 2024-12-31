@@ -1,0 +1,61 @@
+# {cooldown} Zbývající čas cooldownu v sekundách.
+# {perk} Název aktuálního perku.
+# {usagesleft} Počet zbývajících použití aktuálního perku.
+# {slot} Číslo slotu, do kterého byl perk nastaven.
+# {gems} Počet gemů.
+# {playername} Jméno hráče.
+# Pokud není zpráva nastavena, žádná se nepošle.
+# Komentáře u jednotlivých zpráv uvádějí, jaké hodnoty můžete použít ve zprávě.
+
+cooldown-message: "&4Perky &f• &cMusíš počkat {cooldown} sekund, než můžeš znovu použít {perk}!"
+# {cooldown}, {perk}
+
+usages-message: "&4Perky &f• &2Máš ještě &a{usagesleft}&2 použití."
+# {usagesleft}, {perk}
+
+after-cooldown-message: "&4Perky &f• &2Můžeš znovu použít {perk}&2."
+# {perk}
+
+buy-perk-message: "&4Perky &f• &2Koupil jsi {perk}&2."
+# {perk}
+
+full-inv-message: "&4Perky &f• &cTvůj inventář je plný!"
+# (Žádné placeholdery)
+
+not-enough-gems-message: "&4Perky &f• &cNemáš dost gemů!"
+# (Žádné placeholdery)
+
+same-perk-message: "&4Perky &f• &cTento perk již vlastníš."
+# {perk}
+
+slot-message: "&4Perky &f• &2Nastavil jsi slot na &a{slot}&2."
+# {slot}
+
+perks-chose-message: "&4Perky &f• &2Vybral jsi perk {perk}&2."
+# {perk}
+
+set-gems-message: "&4Perky &f• &2Nastavil jsi hráči {playername} počet gemů na &a{gems}&2."
+# {playername}, {gems}
+
+your-gems-were-set-message: "&4Perky &f• &2Tvé gemy byly nastaveny na &a{gems}&2."
+# {gems}
+
+your-gems-were-added-message: "&4Perky &f• &2Bylo ti přidáno &a{gems}&2 gemů."
+# {gems}
+
+add-gems-message: "&4Perky &f• &2Přidal jsi hráči {playername} &a{gems}&2 gemů."
+# {playername}, {gems}
+
+gems-other-player-message: "&4Perky &f• &2Hráč {playername} má &a{gems}&2 gemů."
+# {playername}, {gems}
+
+gems-me-message: "&4Perky &f• &2Máš &a{gems}&2 gemů."
+# {gems}
+
+not-at-spawn-message: "&4Perky &f• &cMusíš být na spawnu, aby sis mohl vybrat perk."
+# (Žádné placeholdery)
+
+dont-have-perm-message: "&4Perky &f• &cNemáš dostatečné VIP oprávnění k této akci."
+# (Žádné placeholdery)
+last-usage-message: "&4Perky &f• &c Použil jsi perk {perk} &cnaposledy."
+# {perk}
